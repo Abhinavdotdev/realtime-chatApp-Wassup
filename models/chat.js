@@ -1,3 +1,5 @@
+//`````defines mongoDB schemas using Mongoose`````//
+
 import mongoose, { Schema, model, Types } from "mongoose";
 
 const schema = new Schema(

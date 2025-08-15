@@ -1,3 +1,4 @@
+//```````reusable logics like authentication, error handling`````````//
 import jwt from "jsonwebtoken";
 import { ErrorHandler } from "../utils/utility.js";
 import { adminSecretKey } from "../app.js";

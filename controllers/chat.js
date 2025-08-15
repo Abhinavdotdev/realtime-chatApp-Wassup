@@ -1,3 +1,5 @@
+//````````constains logic for handling request```````//
+
 import { TryCatch } from "../middlewares/error.js";
 import { ErrorHandler } from "../utils/utility.js";
 import { Chat } from "../models/chat.js";

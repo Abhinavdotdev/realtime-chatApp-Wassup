@@ -1,3 +1,5 @@
+//```````entry point of backend server```````//
+
 import express from "express";
 import { connectDB } from "./utils/features.js";
 import dotenv from "dotenv";
@@ -21,6 +23,7 @@ import { getSockets } from "./lib/helper.js";
 import { Message } from "./models/message.js";
 import { corsOptions } from "./constants/config.js";
 import { socketAuthenticator } from "./middlewares/auth.js";
+
 
 import userRoute from "./routes/user.js";
 import chatRoute from "./routes/chat.js";
@@ -56,6 +59,8 @@ app.set("io", io);
 
 // Using Middlewares Here
 app.use(express.json());
+app.set("trust proxy", 1);
+
 app.use(cookieParser());
 app.use(cors(corsOptions));
 

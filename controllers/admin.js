@@ -1,3 +1,5 @@
+//````````constains logic for handling request```````//
+
 import jwt from "jsonwebtoken";
 import { TryCatch } from "../middlewares/error.js";
 import { Chat } from "../models/chat.js";

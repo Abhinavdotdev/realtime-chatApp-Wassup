@@ -1,3 +1,4 @@
+//``````dummy or initial data seeding logic``````//
 import { faker, simpleFaker } from "@faker-js/faker";
 import { Chat } from "../models/chat.js";
 import { Message } from "../models/message.js";

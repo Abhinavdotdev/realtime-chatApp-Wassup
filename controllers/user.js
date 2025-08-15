@@ -1,3 +1,5 @@
+//````````constains logic for handling request```````//
+
 import { compare } from "bcrypt";
 import { NEW_REQUEST, REFETCH_CHATS } from "../constants/events.js";
 import { getOtherMember } from "../lib/helper.js";
